@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking</title>
+    <link rel="stylesheet" href="flight.css">
+</head>
+<body>
+    <header>
+        <h1>Flight Booking</h1>
+    </header>
+
+    <main>
+        <section id="destination">
+            <h2>Choose Your Destination</h2>
+            <select id="countrySelect">
+                <option value="">Select Country</option>
+                <option value="usa">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="france">France</option>
+                <!-- Add more countries as needed -->
+            </select>
+        </section>
+
+        <section id="flights">
+            <h2>Available Flights</h2>
+            <div id="flightList">
+                <!-- Flight results will be displayed here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Flight Booking Raffaloka</p>
+    </footer>
+
+    <script src="flight.js"></script>
+</body>
+</html>
